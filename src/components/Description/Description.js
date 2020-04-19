@@ -14,13 +14,17 @@ export default class Description extends React.Component {
                 marginLeft: "50px",
                 boxShadow: "0px 4px 100px rgba(0, 0, 0, 0.75)",
               }}
+              allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen"
               title="trailer"
               width="300"
               height="200"
               src="https://www.youtube.com/embed/0JRdQu4lnIU"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
             ></iframe>
             <div className="imdb">
               <h1>8.033</h1>

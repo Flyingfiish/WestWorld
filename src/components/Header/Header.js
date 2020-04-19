@@ -7,7 +7,9 @@ export default class Header extends React.Component {
     return (
       <div className="header">
         <nav>
+          <a href="/" style={{textDecoration:'none'}}>
           <h1 className="logo">WestWorld</h1>
+          </a>
           <Button text="Смотреть онлайн"></Button>
           <Button text="Персонажи"></Button>
           <Button text="Дата выхода серий"></Button>
