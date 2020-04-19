@@ -1,7 +1,9 @@
 .background {
-    background-image: url('../../img/background.jpg');
-    background-attachment: fixed;   
+    background-image:radial-gradient(ellipse at center, transparent, #1E1E1E), url('../../img/background.jpg');
     background-repeat: no-repeat;
-    background-position: top right;
-    height: 5000px;
+    background-position: top center;
+    height: 2100px;
+    background-size: 1300px;
+    margin-top: 80px;
+    background-color: #1e1e1e;
 }

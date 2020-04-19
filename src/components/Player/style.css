@@ -1,0 +1,16 @@
+.player {
+  width: 800px;
+  height: 400px;
+  border: 10px #fcc75f solid;
+  margin: 75px;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+    background-color: #fcc75f;
+    border-bottom: 10px #fcc75f solid;
+}
+
+.title h1 {
+    margin: 0;
+}

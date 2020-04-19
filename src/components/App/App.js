@@ -11,6 +11,7 @@ export default class App extends React.Component {
             <div>
                 <Header></Header>
                 <Main></Main>
+                
                 <Background></Background>
             </div>
         )
