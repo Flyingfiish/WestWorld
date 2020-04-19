@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #2e2e2e;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.75);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 313px;
+  margin-top: 13px;
+  margin-right: 50px;
+  font-size: 48px;
+  padding: 0;
+  color: #fcc75f;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  position: fixed;
+  background-color: #fcc75f;
+}

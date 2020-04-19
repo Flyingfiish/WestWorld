@@ -1,0 +1,29 @@
+.desc {
+    margin: 75px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#cover {
+    background-image: url('../../img/cover.jpg');
+    height: 444px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 50px 50px 50px;
+}
+
+#name {
+    font-size: 48px;
+    color: #fcc75f;
+    margin: 0 auto;
+}
+
+.name{
+    width: 300px;
+    color: #b2b2b2;
+}
+
+.infoRow{
+    height: 40px;
+}

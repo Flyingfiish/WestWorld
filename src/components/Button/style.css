@@ -1,0 +1,16 @@
+.button {
+  font-size: 18px;
+  color: white;
+  background: transparent;
+  border-radius: 0;
+
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttonText {
+  padding: 0 10px;
+  margin: 0;
+}
