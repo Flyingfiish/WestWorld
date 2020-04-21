@@ -10,7 +10,7 @@ export default class Player extends React.Component {
         </div>
         <iframe
           className="videocdn"
-          allowFullScreen="allowFullScreen"
+          allowfullscreen="allowFullScreen"
           mozallowfullscreen="mozallowfullscreen"
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
@@ -21,7 +21,6 @@ export default class Player extends React.Component {
           width="640"
           height="480"
           frameborder="0"
-          allowfullscreen
         ></iframe>
       </div>
     );
