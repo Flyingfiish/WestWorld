@@ -17,10 +17,11 @@ export default class Player extends React.Component {
           webkitallowfullscreen="webkitallowfullscreen"
           id="videocdn"
           title="videocdn"
-          src="//48.tvmovies.in/efMCZKhjpdxF/tv-series/505?episode=1&poster=https%3A%2F%2Fwest-world.now.sh%2F&season=1&translation=2"
-          width="800"
-          height="492"
-          frameBorder="0"
+          src="//48.tvmovies.in/efMCZKhjpdxF/tv-series/505"
+          width="640"
+          height="480"
+          frameborder="0"
+          allowfullscreen
         ></iframe>
       </div>
     );
