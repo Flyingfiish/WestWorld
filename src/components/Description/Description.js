@@ -6,15 +6,28 @@ export default class Description extends React.Component {
   render() {
     return (
       <div className="block">
+        <h1 id="name">
+          Мир дикого запада <br></br>
+          <span style={{ fontWeight: "lighter" }}>(сериал 2016-...)</span>
+        </h1>
+        <p
+          style={{
+            fontWeight: "bold",
+            color: "#b2b2b2",
+          }}
+        >
+          WestWorld 18+
+        </p>
         <div className="desc">
           <div className="cover">
-            <div id="cover"></div>
+            <img src="cover.jpg" alt="cover"></img>
             <iframe
               style={{
-                marginLeft: "50px",
                 boxShadow: "0px 4px 100px rgba(0, 0, 0, 0.75)",
+                width: '100%',
+                height:'auto'
               }}
-              allowfullscreen="allowfullscreen"
+              allowFullScreen="allowfullscreen"
               mozallowfullscreen="mozallowfullscreen"
               msallowfullscreen="msallowfullscreen"
               oallowfullscreen="oallowfullscreen"
@@ -23,7 +36,7 @@ export default class Description extends React.Component {
               width="300"
               height="200"
               src="https://www.youtube.com/embed/0JRdQu4lnIU"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
             <div className="imdb">
@@ -44,23 +57,11 @@ export default class Description extends React.Component {
           </div>
           <hr></hr>
           <div className="info">
-            <h1 id="name">
-              Мир дикого запада <br></br>
-              <span style={{ fontWeight: "lighter" }}>(сериал 2016-...)</span>
-            </h1>
-            <p
-              style={{
-                fontWeight: "bold",
-                color: "#b2b2b2",
-                marginBottom: "20px",
-              }}
-            >
-              WestWorld 18+
-            </p>
             <big>
               <big style={{ fontWeight: "bold" }}>О сериале</big>
             </big>
             <table>
+              <tbody>
               <tr className="infoRow">
                 <td className="name">Год производства</td>
                 <td className="value">2016 (3 сезона)</td>
@@ -139,6 +140,7 @@ export default class Description extends React.Component {
                 <td className="name">Время</td>
                 <td className="value">62 мин. / 01:02</td>
               </tr>
+              </tbody>
             </table>
             <hr></hr>
             <div className="review">

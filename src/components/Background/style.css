@@ -3,7 +3,31 @@
     background-repeat: no-repeat;
     background-position: top center;
     height: 2300px;
-    background-size: 1300px;
+    background-size: 67.7%;
     margin-top: 80px;
     background-color: #1e1e1e;
+}
+
+@media screen and (max-width: 1200px) {
+    .background{
+        background-size: 80%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .background{
+        background-size: 95%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .background{
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .background{
+        background-size: 100%;
+    }
 }

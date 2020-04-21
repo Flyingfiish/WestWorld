@@ -1,16 +1,17 @@
 .button {
   font-size: 18px;
   color: white;
-  background: transparent;
+  background: #2e2e2e;
   border-radius: 0;
 
   border: none;
   font: inherit;
   background-color: transparent;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .buttonText {
-  padding: 0 10px;
+  padding: 30px 5px;
   margin: 0;
 }
